@@ -1,0 +1,73 @@
+@media (max-width: 1230px) {
+  .nav-list {
+    display: none;
+  }
+
+  .nav-btn {
+    display: block;
+  }
+
+  .nav.open .nav-list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    z-index: 1;
+    padding: 46px 30px;
+    font-size: 34px;
+    font-weight: 600;
+    color: #828282;
+  }
+
+  .nav.open .nav-list:hover {
+    color: #090909;
+  }
+
+  .nav-btn {
+    z-index: 9;
+    position: absolute;
+    top: 46px;
+    right: 30px;
+  }
+
+  .header-row {
+    flex-direction: column;
+    padding-top: 50px;
+  }
+
+  .header-content {
+    padding-top: 0;
+  }
+
+  .skills-row {
+    row-gap: 60px;
+    padding: 60px 0;
+  }
+
+  .skill-items {
+    max-width: 490px;
+  }
+
+  .portfolio {
+    padding: 60px 0;
+  }
+
+  .portfolio-title {
+    margin-bottom: 50px;
+  }
+
+  .contacts {
+    padding: 60px 0;
+  }
+}
+
+@media (max-width: 700px) {
+  .header-content__person {
+    font-size: 34px;
+  }
+}
